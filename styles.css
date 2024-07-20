@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('pic.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    background-color: rgba(255, 255, 255, 0.84);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+}
+
+
+.currency-selection {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.currency-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#fromCountry, #toCountry {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#swapButton {
+    background-color: transparent;
+    color: black;
+    border: none;
+    width: 60px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+#swapButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #DC766B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ce493a;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+select {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+select option {
+    display: flex;
+    align-items: center;
+}
+
+select option img {
+    width: 20px;
+    height: 14px;
+    margin-right: 10px;
+}
